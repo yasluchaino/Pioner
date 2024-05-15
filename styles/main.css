@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.main{
+    font-size: 14px;
+    font-family: 'Sourse Sans 3', sans-serif;
+    color: #333333;
+}
+.header{
+    padding: 32px 0; 
+}
+hr{
+   
+        border: none;
+        border-top: 1px solid #888888;
+}
+.main-info{
+    display: flex;
+}
+.logo{
+    margin-right: 520px;
+    margin-bottom: 36px;
+    height: 38px;
+    width: 180px;
+}
+.email{
+    text-align: right;
+    width: 280px;
+}
+p#email{
+    color: #607CE6;
+    font-size: 20px;
+    font-weight: 600;
+}
+.phone{
+    text-align: right;
+    margin-left: 60px;
+    width: 180px;
+   
+}
+p#phone{
+    color: #607CE6;
+    font-size: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.menu{
+    margin-top: 16px;
+    display: flex;
+    font-size: 16px;
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-right: 56px;
+}
+.menu-item a{
+    font-size: 16px;
+    line-height: 130%;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.menu-item a:hover{
+    border-bottom: 2px solid ;
+}
+.call{
+    color: #607CE6;
+    display: flex;
+    white-space: nowrap;
+    width: 157px;
+}
+img#call{
+    margin-right: 4px;
+    width: 16px;
+    height: 16px;
+}
+.hero{
+    margin-top: 80px;
+}
+.main-content{
+    display: flex;
+}
+.main-title{
+    font-size: 60px;
+    font-weight: 700;
+ 
+    max-width: 580px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.main-text{
+line-height: 19.2px;
+font-size: 16px;
+max-width: 379px;
+text-align: left;
+margin-left: 20px;
+margin-top: 26px;
+}
+.about{
+    margin-top: 80px;
+}
+.second-title{
+    font-size: 48px;
+    font-weight: 700;
+}
+.about-text, .about-img{
+    display: grid;
+    grid-template-columns: repeat(2,580px);
+    gap: 32px 20px;
+    margin-top: 69px;
+}
+.about-text p{
+    font-size: 16px;
+    line-height: 22.4px;
+}
+.about-img img{
+    width: 580px;
+    height: 280px;
+}
+.products{
+    margin-top: 80px;
+}
+.products-items{
+    display: grid;
+    grid-template-columns: repeat(3,380px);
+    gap: 20px 20px;
+    margin-top: 32px;
+}
+.product{
+    background-color: #F5F5F5;
+    color: #607CE6;
+    height: 470px;
+}
+.products-item-image img{
+    width: 200px;
+    height: 194px;
+    text-align: left;
+    padding: 32px 24px;
+    margin-bottom: 107px;
+}
+.products-item-details{
+    padding-left: 24px;
+}
+.products-title{
+color: #333333;
+font-size: 28px;
+line-height: 33.6px;
+font-weight: 600;
+margin-bottom: 12px;
+
+}
+.products-item-text a{
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-bottom: 32px;
+    color: #607CE6;
+    font-size: 20px;
+    line-height: 24px;
+}
+.products-item-text a:hover{
+    border-bottom: 2px solid #607CE6;
+}
+
+.representations{
+    margin-top: 80px;
+}
+.representations-img{
+    margin-top: 35.92px;
+}
+.news{
+    margin-top: 80px;
+}
+.news-items{
+    display: grid;
+    grid-template-columns: repeat(3,380px);
+    gap: 20px 20px;
+    margin-top: 32px;
+ 
+}
+.news-item{
+    background: #F5F5F5;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.news-item-img img{
+        height: 251px;
+   
+}
+.news-item-text{
+    font-size: 20px;
+    line-height: 28px;
+    margin: 16px 16px;
+}
+.news-item-extra{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding: 20px 15px 25px 15px;
+}
+a.read-next{
+    color: #607CE6;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-decoration: none;
+}
+a.read-next:hover{
+    border-bottom: 2px solid #607CE6;
+}
+p.date{
+color: #888888;
+font-size: 16px;
+line-height: 22.4px;
+}
+.footer{
+    margin-top: 80px;
+    background-color: #333333;
+    height: 361px;
+    color: #F5F5F5;
+
+}
+.footer-logo{
+    width: 180px;
+    height: 38px;
+}
+.footer-content{
+    display: flex;
+    padding-top: 56px;
+}
+.footer-menu{
+    display: flex;
+    margin-left: 420px;
+}
+.footer-menu-list{
+    list-style: none;
+    margin-left: 57px;
+
+}
+.footer-menu-list-item{
+    font-size: 16px;
+    line-height: 19.2px;
+    margin-bottom: 24px;
+    max-width: 155px ;
+}
+.footer-menu-list-item a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #F5F5F5;
+}
+.footer-menu-list-item a:hover{
+    border-bottom: 2px solid white;
+}
+.pioner{
+font-size: 14px;
+line-height: 16.8px;
+text-align: center;
+margin-top: 16px;
+margin-bottom: 24px;
+}
